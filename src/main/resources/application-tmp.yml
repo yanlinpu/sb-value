@@ -1,0 +1,19 @@
+conf:
+  stringTest: hello world
+  string-test2: hello world2
+  booleanTest: true
+  dateTest: 2021-01-01
+  listTest: a,b,c,d
+  listTest2:
+    - a
+    - b
+    - c
+    - d
+  user-yanlp-oneline-map: {name: "yanlp", sex: "男"}
+  user-yanlp-oneline: "{name: \"yanlp\", sex: \"男\"}"
+  list-user-map: "{yanlp: \"java,js\", yanlp2: \"go,rails\"}"
+  user-yanlp:
+    name: yanlp
+    sex: 男
+    flag: java,js,go,rails
+
